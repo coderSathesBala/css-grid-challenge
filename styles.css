@@ -2,3 +2,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr)
 }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
