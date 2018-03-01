@@ -1,14 +1,27 @@
+.title {
+  font-size: 50px;
+  margin-left: 375px;
+}
+
 div {
   cursor: default;
 }
 
+.number {
+  padding: 40px;
+  background-color: blue;
+  margin: 0px;
+}
+
 #all {
   display: grid;
-  margin-left: 150px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 130px;
+  width: 1000px;
 }
 
 .navbar {
-  margin-left: 140px;
+  margin-left: 240px;
 }
 
 ul {
@@ -47,6 +60,50 @@ ul li:hover ul li {
   display: block;
 }
 
-button {
-  color: blue;
+#one {
+  background-color: #C01F1F
+}
+
+#two {
+  background-color: #AE3A1D
+}
+
+#three {
+  background-color: #C59811
+}
+
+#four {
+  background-color: #D6F461
+}
+
+#five {
+  background-color: #24F00E
+}
+
+#six {
+  background-color: #55F682
+}
+
+#seven {
+  background-color: #0AE4C7
+}
+
+#eight {
+  background-color: #22766B
+}
+
+#nine {
+  background-color: #1711BF
+}
+
+#ten {
+  background-color: #7865BD
+}
+
+#eleven {
+  background-color: #DD178E
+}
+
+#twelve {
+  background-color: #F5A1F6
 }
